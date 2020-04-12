@@ -13,3 +13,10 @@ def a_power_b(a,b):
         b = b - 1
     print("el resultado es: "+str(potencia))
     return potencia
+
+
+a=1
+while a<0 or a>0:
+    a = int(input('Ingrese base:  '))
+    b = abs(int(input('Ingrese exponente:  ')))
+    a_power_b(a,b)
