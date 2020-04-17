@@ -30,3 +30,5 @@ print("El número de impares es: "+str(c1))
 print("El número de pares es: "+str(c2))
 print("El número de potencias es: "+str(c3 - 1))
 
+import numpy as np
+np.array 
